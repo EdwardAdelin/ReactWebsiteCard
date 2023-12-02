@@ -6,6 +6,7 @@ import Button from './Button';
 import profilePic1 from './assets/adelin.jpg'
 import profilePic2 from './assets/hadasa.jpg'
 import List from './List';
+import MyComponent from './MyComponent';
 function App(){
   return (
     <div>
@@ -14,6 +15,7 @@ function App(){
     <Card name="Hadasa" picture='./src/assets/hadasa.jpg' description="Best wife ever! "></Card>
     <Button></Button>
     <Food></Food>
+    <MyComponent></MyComponent>
     <List></List>
     <Footer></Footer>
     </div>

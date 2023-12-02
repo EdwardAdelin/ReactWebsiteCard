@@ -1,4 +1,3 @@
-
 function Button()
 {
     const styles = {
@@ -9,9 +8,11 @@ function Button()
             border: "none",
             cursor: "pointer",
     }
-
+    const handleClick = () => console.log("OUCH");
+    const handleClick2 = (name: string) => console.log(
+        `${name} stop clicking me!`);
     return(
-    <button style={styles}>Click me!</button>
+    <button onClick={() => handleClick2("User, ")} style={styles}>Click me!</button>
     );
 }
 export default Button;

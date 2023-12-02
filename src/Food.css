@@ -1,0 +1,6 @@
+.Food{
+    display: flex;
+    max-width: 50%;
+    min-width: fit-content;
+    background-color: beige;
+}

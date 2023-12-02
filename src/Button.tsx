@@ -12,7 +12,7 @@ function Button()
     const handleClick2 = (name: string) => console.log(
         `${name} stop clicking me!`);
     return(
-    <button onClick={() => handleClick2("User, ")} style={styles}>Click me!</button>
+    <button onClick={() => handleClick2("User, ")} style={styles}>Click me! (see in Console)</button>
     );
 }
 export default Button;
